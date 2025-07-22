@@ -1,0 +1,74 @@
+
+
+.kontejner {
+   border: 5px solid #ffffff;
+   height: 1024px;
+   width: 1440px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box1 {
+    background-color: rgb(255, 255, 255);
+    width: 832px;
+    height: 1024px;
+}
+
+.box2 {
+    background-color: #FAB500;
+    width: 608px;
+    height: 1024px;
+    left: 832px;
+     
+}
+
+.boxcentar {
+    background-color: rgb(255, 255, 255);
+    width: 882px;
+    height: 680px;
+    top: 172px;
+    left: 279px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.boxcentarcentra {
+    background-color: rgb(255, 255, 255);
+    width: 482px;
+    height: 343px;
+    top: 340px;
+    left: 479px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.logo {
+    width: 200px;
+    height: 33px;
+    position: absolute;
+    top: 340px;
+    left: 480px;
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+} 
+
+.logo.ispod {
+    width: 168px;
+    height: 21px;
+    position: absolute;
+    top: 398px;
+    left: 379px;
+    display: flex;
+    justify-content: start;
+    z-index: 5;
+    margin: 0 0 0 100px;
+}
