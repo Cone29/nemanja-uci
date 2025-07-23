@@ -2,85 +2,120 @@
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+
+}
+.sve {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
 }
 
-.kontejner {
-  background: #bebebe;
-  min-height: 100vh;
-  position: relative;
-}
-.split {
-  background: #000;
-  width: 100%;
-  display: flex;
+.podela {
+    background: #000;
+    width: 100%;
+    display: flex;
 }
 .levi {
-  background: #fff;
+  background: #ffffff;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
+
 .desni {
   background: #fab500;
   width: 70%;
   height: 100vh;
+    display: flex;
+  flex: end;
 }
-.forma-wrap {
-  position: absolute;
+
+.velikasrednja {
+position: absolute;
+  width: 882px;
+  height: 680px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 882px;
-  height: 680px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
   box-shadow: #2d2d2d2c -5px 5px 10px;
-  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+    border-radius: 4px;
 }
-.forma {
+
+.malasrednja {
   width: 482px;
   height: 343px;
-}
-.reset {
-  margin-top: 25px;
-  font-size: 24px;
-  font-weight: 600;
-  color: #3c3835;
-}
-form {
-  margin-top: 54px;
-}
-.input-wrap {
+  background-color: #fff;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
+  
+  
 }
-input {
-  border: 1px solid #e5e5e5;
-  height: 40px;
-  border-radius: 8px;
-  padding: 0 10px;
-  font-size: 16px;
+
+
+.inputwrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-input:focus {
-  outline: none;
-}
-.first-input {
+
+.prviinput {
+  margin-top: 56px;
   margin-bottom: 16px;
+
+
 }
-label {
+
+.p {
+font-size: 24px;
+  font-weight: 600;
+  color: #3C3835;
+  margin-top: 25px;
+   font-family: "Roboto", sans-serif;
+}
+
+input {
+    border: 1px solid #e5e5e5;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    font-size: 16px;
+     font-family: "Roboto", sans-serif;
+    border-radius: 8px;
+    padding: 0 0 0 15px;
+}
+
+.img {
+  width: 200px;
+  height: 33px;
+  top: 340px;
+  left: 480px;
+ 
+}
+
+.subbutt {
+  width: 100%;
+  height: 40px;
+  background-color: #3C3835;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 24px;
+  
+}
+
+.label {
   font-size: 12px;
   font-weight: 400;
   color: #666666;
   margin-bottom: 8px;
 }
-.sub-btn {
-  margin-top: 24px;
-  width: 100%;
-  border-radius: 8px;
-  background: #3c3835;
-  color: #fff;
-  padding: 8px 0;
-  line-height: 24px;
-  border: none;
-}
+
