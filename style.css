@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: black;
+}
+.sve {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+.logo {
+  color: aliceblue;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ed8c2b, #eb2865);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+}
+
+.r-l {
+  color: #ffffff;
+}
+
+.naslov {
+  margin-top: 129px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.prviTxt {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  width: 52%;
+  margin: 31px auto 0 auto;
+}
+.btnWrap {
+  margin-top: 40px;
+  text-align: center;
+}
