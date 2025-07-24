@@ -3,25 +3,23 @@
   margin: 0;
   font-family: "Inter", sans-serif;
 }
-
+body {
+  background-color: black;
+}
 .sve {
   max-width: 1440px;
-  min-height: 100vh;
-  background-color: black;
-  padding-top: 66px;
-  padding-left: 137px;
-  padding-right: 160px;
+  margin: 0 auto;
 }
 
-.top-bar {
+.topBar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 129px;
+  margin-top: 40px;
+  padding: 0 40px;
 }
 
 .logo {
   color: aliceblue;
-  font-size: 16px;
   font-weight: 700;
   background: linear-gradient(90deg, #ed8c2b, #eb2865);
   -webkit-background-clip: text;
@@ -35,32 +33,23 @@
 }
 
 .naslov {
+  margin-top: 129px;
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
-  margin-top: 0;
-  margin-bottom: 8px; /* dodaj ili smanji po potrebi */
-  align-items: center;
+  margin-bottom: 8px;
   text-align: center;
 }
 
-.prvitxt {
+.prviTxt {
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
-  margin-top: 31px; /* smanji vrednost, npr. 16px ili 8px */
-  margin-left: 123px;
-  margin-right: 72px;
   text-align: center;
+  width: 52%;
+  margin: 31px auto 0 auto;
 }
-
-.startDugme {
-  border: 4px solid;
-  margin: 0 auto;
-}
-
-.buttnwrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 58px; /* prilagodi po potrebi */
+.btnWrap {
+  margin-top: 40px;
+  text-align: center;
 }
