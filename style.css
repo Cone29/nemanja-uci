@@ -44,8 +44,6 @@ body {
 }
 
 .prviTxt {
-  font-size: 16px;
-  font-weight: 400;
   color: #ffffff;
   text-align: center;
   width: 52%;
@@ -101,7 +99,7 @@ body {
   display: flex;
   align-items: center;
 }
-.podela1 {
+.podelaJedan {
   height: 292.69px;
   width: 1053.54px;
   margin: 0 auto;
@@ -110,8 +108,7 @@ body {
   justify-content: start;
   align-items: center;
 }
-
-.levi1 {
+.leviJedan {
   width: 586px;
   height: 269px;
   background-color: #000000;
@@ -126,12 +123,10 @@ body {
 }
 
 .prviProzorTxt {
-  font-size: 16px;
-  font-weight: 400;
   color: #ffffff;
 }
 
-.desni1 {
+.desniJedan {
   align-items: center;
 }
 
@@ -147,8 +142,6 @@ body {
 }
 
 p {
-  font-size: 16px;
-  font-weight: 400;
   color: #ffffff;
 }
 
@@ -166,7 +159,7 @@ li {
   display: flex;
   align-items: center;
 }
-.podela2 {
+.podelaDva {
   height: 292.69px;
   width: 1053.54px;
   margin: 0 auto;
@@ -176,7 +169,7 @@ li {
   align-items: center;
 }
 
-.levi2 {
+.leviDva {
   width: 432.97px;
   height: 265.94px;
   border: #ffffff solid 1px;
@@ -185,7 +178,7 @@ li {
   display: flex;
 }
 
-.desni2 {
+.desniDva {
   width: 586px;
   height: 269px;
   background-color: #000000;
@@ -217,7 +210,7 @@ li {
   background-color: #000000;
 }
 
-.podela3 {
+.podelaTri {
   height: 292.69px;
   width: 1053.54px;
   margin: 0 auto;
@@ -227,7 +220,7 @@ li {
   align-items: start;
 }
 
-.levi3 {
+.leviTri {
   width: 566px;
   height: 190px;
   background-color: #000000;
