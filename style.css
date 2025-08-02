@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: black;
+}
+.sve {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+.logo {
+  color: aliceblue;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ed8c2b, #eb2865);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration: none;
+  width: 90px;
+  height: 19px;
+}
+
+.r-l {
+  color: #ffffff;
+}
+
+.naslov {
+  margin-top: 129px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.prviTxt {
+  color: #ffffff;
+  text-align: center;
+  width: 52%;
+  margin: 31px auto 0 auto;
+}
+.btnWrap {
+  margin-top: 40px;
+  text-align: center;
+}
+.startDugme {
+  background-color: #181818;
+  width: 77px;
+  height: 33px;
+  border-radius: 8px;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.prvaSlikaWrap {
+  width: 785px;
+  height: 489px;
+  background-color: #000000;
+  margin: 127px auto 0 auto;
+}
+
+.prvaSlika {
+  border: #ffffff solid 3px;
+  border-radius: 8px;
+}
+
+.podNaslov1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 119px;
+}
+
+.drugiTxt {
+  width: 636px;
+  height: 85px;
+  margin: 14px auto 0 auto;
+  text-align: center;
+}
+
+.prviProzor {
+  max-width: 1134px;
+  min-height: 425px;
+  margin: 99px auto 0 auto;
+  border: #ffffff solid 1px;
+  border-radius: 51px;
+  display: flex;
+  align-items: center;
+}
+.podelaJedan {
+  height: 292.69px;
+  width: 1053.54px;
+  margin: 0 auto;
+  background-color: #000000;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.leviJedan {
+  width: 586px;
+  height: 269px;
+  background-color: #000000;
+  margin: 10px;
+}
+
+.prviProzorNas {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.prviProzorTxt {
+  color: #ffffff;
+}
+
+.desniJedan {
+  align-items: center;
+}
+
+.drugaSlika {
+  width: 437.54px;
+  height: 272px;
+  border: #ffffff solid 1px;
+  border-radius: 8px;
+}
+
+.prviProzorTxt {
+  margin: 10px;
+}
+
+p {
+  color: #ffffff;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  margin: 0 30px;
+}
+
+.drugiProzor {
+  max-width: 1134px;
+  min-height: 425px;
+  margin: 131px auto 0 auto;
+  border: #ffffff solid 1px;
+  border-radius: 51px;
+  display: flex;
+  align-items: center;
+}
+.podelaDva {
+  height: 292.69px;
+  width: 1053.54px;
+  margin: 0 auto;
+  background-color: #000000;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.leviDva {
+  width: 432.97px;
+  height: 265.94px;
+  border: #ffffff solid 1px;
+  border-radius: 8px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.desniDva {
+  width: 586px;
+  height: 269px;
+  background-color: #000000;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drugiProzorNas {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.drugiProzorTxt {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.treciProzor {
+  max-width: 1134px;
+  min-height: 425px;
+  margin: 131px auto 0 auto;
+  border: #ffffff solid 1px;
+  border-radius: 51px;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+
+.podelaTri {
+  height: 292.69px;
+  width: 1053.54px;
+  margin: 0 auto;
+  background-color: #000000;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.leviTri {
+  width: 566px;
+  height: 190px;
+  background-color: #000000;
+  margin: 10px;
+}
+
+.treciProzorNas {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.treciProzorTxt {
+  color: #ffffff;
+}
