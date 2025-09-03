@@ -1,0 +1,20 @@
+.polja {
+  display: flex;
+}
+
+.prvi {
+  margin-right: 10px;
+}
+
+.drugi {
+  margin-left: 10px;
+}
+
+.treci {
+  margin-left: 10px;
+}
+
+.rezultat {
+  margin-left: 10px;
+  font-weight: bold;
+}
