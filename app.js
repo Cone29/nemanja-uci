@@ -57,3 +57,4 @@ updateDisplay();
 incButton.addEventListener("click", increment);
 decButton.addEventListener("click", decrement);
 resetButton.addEventListener("click", resetCount);
+// comm
